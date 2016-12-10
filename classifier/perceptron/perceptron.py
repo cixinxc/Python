@@ -61,7 +61,7 @@ def main():
     print('main function')
     dataSet = []
     labels = []
-    fileIn = open('testSet1.txt')
+    fileIn = open('testSet.txt')
     for line in fileIn.readlines():
         lineArr = line.strip().split('\t')
         dataSet.append([float(lineArr[0]), float(lineArr[1])])
